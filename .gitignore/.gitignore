@@ -1,0 +1,5 @@
+/.idea/
+/__pycache__/
+/closure_service/__pycache__/
+/common_utils/__pycache__/
+/minimal_cover_service/__pycache__/
