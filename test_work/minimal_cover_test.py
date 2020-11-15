@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 
 
-host = "http://localhost:5000"
+host = "http://localhost:8000"
 
 
 path = "/minimalCover/inputList"
