@@ -51,7 +51,7 @@ def step3(F):
             code, isSuccess, message, X_B_F = closure_main(X_B, F_m)
             if not isSuccess:
                 return None
-            if A not in X_B_F:
+            if A[0] not in X_B_F:
                 X_new.append(B)
             else:
                 is_change = True
@@ -69,7 +69,7 @@ def minimal_cover_main(F):
     try:
         data = {}
         i = 1
-        for _ in range(10):
+        for _ in range(len(F)*3):
             F_rand = F.copy()
             random.shuffle(F_rand)
             print("步骤1")
